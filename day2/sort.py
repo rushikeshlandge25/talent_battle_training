@@ -13,6 +13,10 @@ while mid<=high:
         nums[low],nums[high]=nums[high],nums[low]
         low+=1
         high-=1
+    elif nums[high]==1:
+        nums[mid],nums[high]=nums[high],nums[mid]
+        mid+=1
+        high-=1     
     elif nums[mid]==2:
         nums[mid],nums[high]=nums[high],nums[mid]
         high-=1
