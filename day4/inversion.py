@@ -1,4 +1,4 @@
-arr = [4, 3, 2, 1]
+arr = [6, 3, 5, 2,7]
 output = 6
 def count_inversions(arr):
     cnt=0
@@ -7,6 +7,8 @@ def count_inversions(arr):
             if arr[i]>arr[j]:
                 cnt+=1
     return cnt
-print(count_inversions(arr))
+print(count_inversions(arr))        
+
+
 
     
